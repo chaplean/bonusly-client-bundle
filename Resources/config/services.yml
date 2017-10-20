@@ -1,0 +1,12 @@
+parameters:
+    chaplean_bonusly.api.access_token: '%chaplean_bonusly.access_token%'
+    chaplean_bonusly.api.url: "https://bonus.ly/api/v1/"
+
+services:
+    bonusly_api:
+        class: Chaplean\Bundle\BonuslyClientBundle\API\BonuslyApi
+        arguments:
+            - '@guzzle.client.bonusly_api'
+            - '@event_dispatcher'
+            - '%chaplean_bonusly.api.url%'
+            - '%chaplean_bonusly.api.access_token%'
