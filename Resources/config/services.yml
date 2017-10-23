@@ -4,7 +4,7 @@ parameters:
 
 services:
     bonusly_api:
-        class: Chaplean\Bundle\BonuslyClientBundle\API\BonuslyApi
+        class: Chaplean\Bundle\BonuslyClientBundle\Api\BonuslyApi
         arguments:
             - '@guzzle.client.bonusly_api'
             - '@event_dispatcher'

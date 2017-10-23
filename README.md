@@ -1,6 +1,6 @@
 # ChapleanBonuslyClientBundle
 
-![Codeship Status for chaplean/zoho-invoice-client-bundle](https://app.codeship.com/projects/42812bd0-97bc-0135-385d-161fd251d857/status?branch=master)
+![Codeship Status for chaplean/bonusly-io-client-bundle](https://app.codeship.com/projects/42812bd0-97bc-0135-385d-161fd251d857/status?branch=master)
 
 # Prerequisites
 
