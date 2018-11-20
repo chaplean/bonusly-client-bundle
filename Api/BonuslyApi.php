@@ -12,7 +12,6 @@ use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 /**
  * Class BonuslyApi
  *
- * @method Route        getValues()
  * @method Route        getUsers()
  * @method Route        getCompanies()
  * @method Route        getLeaderboards()
@@ -72,8 +71,6 @@ class BonuslyApi extends AbstractApi
                         ->defaultValue($this->token),
                 ]
             );
-
-        $this->get('values', 'values');
 
         $this->get('users', 'users');
 

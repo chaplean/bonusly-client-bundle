@@ -57,10 +57,10 @@ class BonuslyApiTest extends TestCase
      */
     public function testGetRoutes()
     {
-        $methods = ['values', 'users', 'companies', 'leaderboards', 'bonuses'];
+        $methods = ['users', 'companies', 'leaderboards', 'bonuses'];
 
         $this->assertArrayHasKey('get', $this->routes);
-        $this->assertCount(5, $this->routes['get']);
+        $this->assertCount(4, $this->routes['get']);
         foreach ($methods as $method) {
             $this->assertArrayHasKey($method, $this->routes['get']);
         }
