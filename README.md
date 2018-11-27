@@ -33,7 +33,7 @@ new Chaplean\Bundle\BonuslyClientBundle\ChapleanBonuslyClientBundle(),
 
 ## Configuration
 
-First you will need to import bundle configuration.
+First you will need to import the bundle configuration.
 
 config.yml:
 ```yaml
@@ -51,17 +51,7 @@ parameters:
 
 ## Usage
 
-Here is an example of how to use the getUsers route.
-
-```php
-$response = $bonuslyApi->getUsers()
-    ->exec();
-    
-if ($response->succeeded()) {
-    $content = $response->getContent();
-    // your code
-}
-```
+See the rest-client-bundle's [usage documentation](https://github.com/chaplean/rest-client-bundle#using-a-bundle-based-on-rest-client-bundle).
 
 ### Available functions:
 
