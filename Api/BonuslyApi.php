@@ -4,7 +4,6 @@ namespace Chaplean\Bundle\BonuslyClientBundle\Api;
 
 use Chaplean\Bundle\RestClientBundle\Api\AbstractApi;
 use Chaplean\Bundle\RestClientBundle\Api\Parameter;
-use Chaplean\Bundle\RestClientBundle\Api\RequestRoute;
 use Chaplean\Bundle\RestClientBundle\Api\Route;
 use GuzzleHttp\ClientInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
@@ -12,18 +11,18 @@ use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 /**
  * Class BonuslyApi
  *
- * @method Route        getUsers()
- * @method Route        getCompanies()
- * @method Route        getLeaderboards()
- * @method Route        getBonuses()
+ * @method Route getUsers()
+ * @method Route getCompanies()
+ * @method Route getLeaderboards()
+ * @method Route getBonuses()
  *
- * @method RequestRoute postBonuses()
- * @method RequestRoute postUsers()
+ * @method Route postBonuses()
+ * @method Route postUsers()
  *
- * @method RequestRoute putCompanies()
- * @method RequestRoute putUsers()
+ * @method Route putCompanies()
+ * @method Route putUsers()
  *
- * @method Route        deleteUsers()
+ * @method Route deleteUsers()
  *
  * @author    Hugo - Chaplean <hugo@chaplean.coop>
  * @copyright 2014 - 2017 Chaplean (http://www.chaplean.coop)
